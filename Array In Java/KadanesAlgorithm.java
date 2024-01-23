@@ -3,7 +3,7 @@ public class KadanesAlgorithm {
         int max_sum = 0;
         int curr_sum = 0;
         for (int i = 0; i<num.length; i++){     
-            curr_sum += num[i];
+            curr_sum += num[i];     
             if (curr_sum <0){
                 curr_sum = 0;
             }
